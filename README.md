@@ -1,22 +1,29 @@
-Project: My Website
-This project is a website built using HTML and CSS, showcasing a clean and functional design with a responsive layout. Through this project, I have gained valuable experience in web development and design.
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=MediPrime+Astana)](https://git.io/typing-svg)
 
-Description
-The website consists of several pages with essential features such as navigation, forms, buttons, and images. I used HTML to structure the content and CSS for styling, ensuring that the site is not only functional but visually appealing.
+# MediPrime Astana Multidisciplinary Medical Center
 
-Skills and Knowledge Gained
-HTML Structure: Learned to structure content effectively using semantic HTML elements, improving accessibility and SEO.
-CSS Styling: Enhanced my understanding of layouts, typography, colors, and spacing, creating a visually cohesive design.
-Responsive Design: Gained hands-on experience using Flexbox and media queries to create a responsive layout that adapts to various screen sizes, ensuring the site is mobile-friendly.
-UI Design: Improved skills in designing user interfaces, focusing on a clean and intuitive layout with proper use of fonts and icons.
-Version Control: Used Git for version control, learning how to manage code changes and track progress efficiently.
-Cross-Browser Compatibility: Ensured that the website functions properly across different browsers, learning how to address browser-specific issues.
-Technologies and Tools Used
-HTML: For structuring content on the website.
-CSS: For styling and creating responsive layouts.
-Flexbox & Media Queries: For building flexible and adaptive page designs.
-Google Fonts: For integrating custom web fonts.
-Font Awesome: To enhance the UI with icons.
-VS Code: Code editor for writing and editing the project files.
-Git: For version control and managing changes.
-GitHub: For hosting the project's repository.
+**MediPrime Astana** — это многопрофильный медицинский центр, предоставляющий широкий спектр медицинских услуг. В этом проекте разработана веб-платформа для управления пациентами, записи на прием, хранения медицинских данных и интеграции с внешними медицинскими системами.
+
+## Функционал
+
+- **Регистрация и управление пациентами**: пользователи могут зарегистрироваться, записаться на прием к врачу и просматривать свою медицинскую историю.
+- **Административная панель**: администраторы могут управлять данными о пациентах, назначать врачей, отслеживать запись на прием.
+- **Медицинские записи**: создание и редактирование медицинских записей для каждого пациента.
+- **Уведомления**: система уведомлений для пациентов о предстоящих приемах и событиях.
+- **Аутентификация и безопасность**: встроенная система аутентификации пользователей для защиты данных пациентов.
+
+## Технологии
+
+- **Frontend**:  
+  - **HTML5, CSS3** для структуры и стилей страниц.
+  - **Bootstrap** для адаптивного и удобного интерфейса.
+  
+- **Backend**:  
+  - **PostgreSQL** для хранения данных о пациентах и медицинских записях.
+  - Использование **SQL** для работы с базой данных.
+
+## Особенности проекта
+
+  - **Интуитивно понятный интерфейс с использованием Bootstrap для быстрой адаптации к разным экранам и устройствам.**
+  - **Надежность и безопасность данных благодаря PostgreSQL и аутентификации пользователей.**
+  - **Поддержка пользователей: удобные формы регистрации и входа для пациентов и администраторов.**
