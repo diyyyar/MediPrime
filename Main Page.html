@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MediPrime</title>
+	<link rel="icon" type="image/x-icon" href="favicon.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="transition.css">
+	<style type="text/css">
+		/* Headings */
+		h1 {
+		  font-family: "Poppins", sans-serif;
+		  font-weight: 700;
+		  font-size: 36px;
+		}
+
+		h2 {
+		  font-family: "Poppins", sans-serif;
+		  font-weight: 600;
+		  font-size: 30px;
+		}
+
+		h3 {
+		  font-family: "Poppins", sans-serif;
+		  font-weight: 600;
+		  font-size: 24px;
+		}
+
+		/* Body Text */
+		p {
+		  font-family: "Poppins", sans-serif;
+		  font-weight: 400;
+		  font-size: 16px;
+		  line-height: 1.5;
+		}
+
+		/* Navigation Menu */
+		.nav-menu {
+		  font-family: Raleway, sans-serif;
+		  font-weight: 500;
+		  font-size: 18px;
+		}
+
+		/* Quotes */
+		.quote {
+		  font-family: Lato, sans-serif;
+		  font-weight: 400;
+		  font-size: 20px;
+		  font-style: italic;
+		}
+
+		/* Call-to-Action */
+		.cta-button {
+		  font-family: Lato, sans-serif;
+		  font-weight: 700;
+		  font-size: 18px;
+		}
+
+		#header-image {
+			background-image: url("mainpage-header.jpeg");
+  			background-size: cover;
+			width: 100%;
+			height: 500px;
+			text-align: center;
+			color: white;
+			border-radius: 30px;
+			border: 0px solid black;
+		}
+
+		#logo {
+			width: 170px;
+		}
+
+		#header-heading {
+			margin-top: 420px;
+			font-size: 50px;
+			-webkit-text-stroke: 1px rgba(0, 0, 0, 0.8);
+
+		}
+
+		.container-fluid {
+			
+		}
+
+		.row {
+			border: 0px solid black;
+		}
+
+		.col-3 {
+			border: 0px solid black;
+			
+		}
+
+		.card-img-top {
+			width: 60%;
+			margin: 7%;
+		}
+
+		.card {
+			border: 0px;
+			background-color: #61876E;
+			color: white;
+			border-radius: 30px;
+		}
+
+		.navbar {
+			border: 0px solid black;
+			margin-top: 2.5%;
+		}
+
+		.card-button {
+			background-color: #006039; 
+			width: 80%; 
+			margin-left: 10%; 
+			margin-right: 10%;
+			color: white;
+			border-radius: 30px;
+		}
+
+		#news {
+			height: 350px;
+			color: white;
+			background-color: #61876E;
+			border-radius: 30px;
+		}
+
+		#news-header {
+			margin: 5%;
+			margin-bottom: 0;
+			text-align: center;
+		}
+
+		#news-input {
+			background-color: white;
+			height: 70px;
+			width: 60%;
+			margin: 0 20% 0 20%;
+			border-radius: 40px;
+		}
+
+		input:focus {
+			outline: none;
+		}
+
+		#footer {
+			height: 450px;
+			color: white;
+			background-color: #61876E;
+		}
+
+
+		.nav-link {
+			color: #61876E;
+		}
+
+		.nav-link:hover {
+			text-decoration: underline;
+			color: #A37E2C;
+		}
+
+		.col-lg-4 {
+			margin-bottom: 3%;
+		}
+
+		@media only screen and (max-width: 992px) {
+          #footer p {
+          	font-size: 13px;
+          }
+
+          .navbar a {
+			font-size: 14px;
+			font-weight: bold;
+		}
+   		}
+
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+		<div class="col-12">
+		<div class="row" style="width: 90%; margin-left: 5%; margin-right: 5%; margin-top: 2%;">
+			<div class="col-6">
+				<img src="logo2.png" id="logo">
+			</div>
+			<div class="col-6">
+				<nav class="navbar navbar-expand-sm navbar-light" style="float: right;">
+ 					<div class="collapse navbar-collapse">
+    					<ul class="navbar-nav">
+      						<li class="nav-item active">
+        						<a class="nav-link" href="Main Page.html" style="color: #A37E2C; text-decoration: underline;">Home</a>
+      						</li>
+      						<li class="nav-item active">
+        						<a class="nav-link" href="About Us.html">About Us</a>
+      						</li>
+      						<li class="nav-item active">
+        						<a class="nav-link" href="Our Doctors.html">Our Doctors</a>
+      						</li>
+      						<li class="nav-item active">
+       							<a class="nav-link" href="Appointment.html">Make an appointment</a>
+      						</li>
+    					</ul>
+  					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="row" style="width: 90%; margin-left: 5%; margin-right: 5%; margin-top: 2%;">
+			<div class="col-12" id="header-image">
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="row" style="margin-top: 4%;">
+		<div class="col-12" style="text-align: center;">
+			<h1 style="color: #A37E2C;">Our Services</h1>
+			<p style="width: 50%; margin: 0 25% 0 25%; font-size: 16px;">Welcome to the MediPrime clinic in Astana, your reliable partner in the field of health and medical care! We strive to provide our patients with high quality and personalized medical care by offering a wide range of services to improve your health and well-being.</p>
+		</div>
+	</div>
+
+		<div class="row cards-row" style="padding: 3% 13% 0 13%;">
+			<div class="col-12 col-lg-4">
+			<div class="card align-items-center text-center">
+			  <a href="About Us.html" style="margin-top: 1%;"><img class="card-img-top" src="information.png" alt="Card image cap"></a>
+			  <div class="card-body">
+			  	<h3 class="card-text">Information</h3>
+			    <p class="card-text">The clinic takes adults and children. Here you can get the advice of narrow specialists and undergo a complete examination.</p>
+			    <br>
+			  </div>
+			</div>
+			</div>
+			<div class="col-12 col-lg-4">
+				<div class="card align-items-center text-center">
+				  <a href="Our Doctors.html" style="margin-top: 1%;"><img class="card-img-top" src="doctor.png" alt="Card image cap"></a>
+				  <div class="card-body">
+				  	<h3 class="card-text">Doctors</h3>
+				    <p class="card-text">Our doctors and medical staff have many years of experience and specialize in various fields of medicine.</p>
+				    <br>
+				  </div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-4">
+				<div class="card align-items-center text-center">
+				  <a href="Appointment.html" style="margin-top: 1%;"><img class="card-img-top" src="appointment.png" alt="Card image cap"></a>
+				  <div class="card-body">
+				  	<h3 class="card-text">Appointments</h3>
+				    <p class="card-text">In order to facilitate the visit to our clinic, we have introduced a system of the convenient online appointment service. </p>
+				    <br>
+				  </div>
+				</div>
+			</div>
+		</div>
+
+
+	<div class="row" style="margin-top: 4%;">
+		<div class="col-12" style="text-align: center;">
+			<h1 style="color: #A37E2C;">Choose Your Specialist Doctor</h1>
+			<p style="width: 50%; margin: 0 25% 0 25%; font-size: 16px;">We understand that choosing a doctor is an important step and we strive to make the process simple and confident for you. On our website you can find biographies of our doctors, their education, work experience and specialization. You can choose a doctor who suits your needs and preferences.</p>
+		</div>
+	</div>
+
+<!-- DOCTORS FIRST ROW-->
+		<div class="row" style="padding: 3% 13% 0 13%;">
+			<div class="col-12 col-lg-4">
+			<div class="card align-items-center text-center">
+					<div class="row" style="margin-top: 5%;">
+						<div class="col-3">
+							<img src="photo1.png">
+						</div>
+						<div class="col-9">
+							<h5 style="color: #262626;">Kornelia Atkinson, MD</h5>
+							<p>Interventional Cardiologist</p>
+						</div>
+					</div>
+			  <div class="card-body">
+			    <p class="card-text">He is a highly skilled cardiologist at MediPrime Astana Medical Centre. With his exceptional skills, in-depth knowledge and extensive experience in the field of cardiology, he specializes in the diagnosis, treatment, and prevention of cardiovascular diseases.</p>
+			    <button class="btn card-button cta-button book">Book Appointment</button>
+			    <br>
+			  </div>
+			</div>
+			</div>
+
+			<div class="col-12 col-lg-4">
+			<div class="card align-items-center text-center">
+					<div class="row" style="margin-top: 5%;">
+						<div class="col-3" >
+							<img src="photo2.png">
+						</div>
+						<div class="col-9">
+							<h5 style="color: #262626;">Humera Wood, MD</h5>
+							<p>OB-GYN Nurse Practitioner</p>
+						</div>
+					</div>
+			  <div class="card-body">
+			    <p class="card-text">He is an accomplished orthopedic surgeon at MediPrime Astana. He specializes in the diagnosis, treatment, and rehabilitation of orthopedic conditions.He has expertise in joint replacements, arthroscopy, fracture management, and sports medicine.</p>
+			    <button class="btn card-button cta-button book">Book Appointment</button>
+			    <br>
+			  </div>
+			</div>
+			</div>
+
+			<div class="col-12 col-lg-4">
+			<div class="card align-items-center text-center">
+					<div class="row" style="margin-top: 5%;">
+						<div class="col-3">
+							<img src="photo3.png">
+						</div>
+						<div class="col-9">
+							<h5 style="color: #262626;">Athena Barrow, MD</h5>
+							<p>Critical Care Specialist</p>
+						</div>
+					</div>
+			  <div class="card-body">
+			    <p class="card-text">He is a highly regarded dermatologist at MediPrime Astana. With her passion for skin health and aesthetics, she specializes in diagnosing and treating various dermatological conditions. Dr. Volkova offers comprehensive care for skin disorders, including acne, eczema, psoriasis, and skin infections.</p>
+			    <button class="btn card-button cta-button book">Book Appointment</button>
+			    <br>
+			  </div>
+			</div>
+		</div>
+	</div>
+<!-- DOCTORS SECOND ROW-->
+			<div class="row" style="padding: 3% 13% 0 13%;">
+				<div class="col-12 col-lg-4">
+				<div class="card align-items-center text-center">
+						<div class="row" style="margin-top: 5%;">
+							<div class="col-3">
+								<img src="photo4.png">
+							</div>
+							<div class="col-9">
+								<h5 style="color: #262626;">Sion Jennings, MD</h5>
+								<p>Nurse Practitioner</p>
+							</div>
+						</div>
+				  <div class="card-body">
+				    <p class="card-text">He is a dedicated gastroenterologist at MediPrime Astana. With his expertise in the field of digestive health, he specializes in diagnosing and managing disorders of the gastrointestinal tract. He provides comprehensive care for conditions such as acid reflux, gastritis, irritable bowel syndrome, and liver diseases.</p>
+				    <button class="btn card-button cta-button book">Book Appointment</button>
+				    <br>
+				  </div>
+				</div>
+				</div>
+
+				<div class="col-12 col-lg-4">
+				<div class="card align-items-center text-center">
+						<div class="row" style="margin-top: 5%;">
+							<div class="col-3" >
+								<img src="photo5.png">
+							</div>
+							<div class="col-9">
+								<h5 style="color: #262626;">Natasha Grant, MD</h5>
+								<p>Immunologist</p>
+							</div>
+						</div>
+				  <div class="card-body">
+				    <p class="card-text">She is a highly regarded dermatologist at MediPrime Astana. With her passion for skin health and aesthetics, she specializes in diagnosing and treating various dermatological conditions. She offers comprehensive care for skin disorders, including acne, eczema, psoriasis, and skin infections.</p>
+				    <button class="btn card-button cta-button book">Book Appointment</button>
+				    <br>
+				  </div>
+				</div>
+				</div>
+
+				<div class="col-12 col-lg-4">
+				<div class="card align-items-center text-center">
+						<div class="row" style="margin-top: 5%;">
+							<div class="col-3">
+								<img src="photo6.png">
+							</div>
+							<div class="col-9">
+								<h5 style="color: #262626;">Zubair Mac, MD</h5>
+								<p>Nurse Practitioner</p>
+							</div>
+						</div>
+				  <div class="card-body">
+				    <p class="card-text">He is a compassionate and experienced pediatrician at MediPrime. With his specialization, he provides comprehensive medical care for infants, children, and adults. He focuses on preventive care, check-ups, vaccinations, and the management of common childhood illnesses.</p>
+				    <button class="btn card-button cta-button book">Book Appointment</button>
+				    <br>
+				  </div>
+				</div>
+			</div>
+		</div>
+<!-- -->
+		<div class="row" id="news" style="width: 90%; margin: 5% 5% 5% 5%;">
+			<div class="col-12">
+				<h1 id="news-header">Join Our Newsletter</h1>
+			</div>
+			<div class="col-12" id="news-form">
+				<div class="row" id="news-input">
+					<div class="col-6 col-lg-9" style="border: 0px solid black; height: 70px;">
+						<input type="email" name="email" id="email" placeholder="Enter your email" style="width: 100%; height: 50px; margin: 10px 0 10px 0; border-radius: 30px; border: 0px;">
+					</div>
+					<div class="col-6 col-lg-3" style="height: 70px;">
+						<button type="submit" class="btn cta-button card-button" id="submit-button" style="width: 90%; height: 50px; margin: 10px 0 10px 12%;">Subscribe</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- FOOTER -->
+	<div class="row" id="footer" style="padding: 7% 8% 7% 8%; ">
+		<div class="col-5">
+			<h4>MediPrime</h4>
+			<p>At MediPrime Astana, we specialize in different areas of medicine, including the diagnosis, treatment and prevention of various diseases. Here you will find everything you need for comprehensive care of your health: family medicine, pediatrics, cardiology, gastroenterology, neurology, gynecology and other areas. We also offer physical therapy, rehabilitation and wellness services.</p>
+		</div>
+		<div class="col-1"></div>
+		<div class="col-3">
+			<h4>Adress</h4>
+			<p>Astana, Mangilik El</p>
+			<h4>Telephone</h4>
+			<p>+77077777878</p>
+			<h4>Email</h4>
+			<p>mediprime@gmail.com</p>
+		</div>
+		<div class="col-3">
+			<h4>Opening Hour</h4>
+			<p>Monday: 8am - 6pm</p>
+			<p>Tuesday: 8am - 6pm</p>
+			<p>Wednesday: 8am - 6pm</p>
+			<p>Thursday: 8am - 6pm</p>
+			<p>Friday: 8am - 6pm</p>
+			<p>Saturday: 10am - 5pm</p>
+			<p>Sunday: 10am - 5pm</p>
+		</div>
+	</div>
+
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript">
+		class FormValidator {
+		  constructor(form) {
+		    this.form = form;
+		  }
+
+		  validateRequiredFields() {
+		    let isValid = true;
+		    this.form.find('input').each(function() {
+		      if ($(this).val() === '') {
+		        isValid = false;
+		        return false;
+		      }
+		    });
+		    return isValid;
+		  }
+
+		  validateEmailField() {
+		    const emailField = this.form.find('input[type="email"]');
+		    const email = emailField.val();
+		    const emailRegex = /^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/;
+
+		    if (!emailRegex.test(email)) {
+		      emailField.addClass('error');
+		      return false;
+		    }
+
+		    return true;
+		  }
+
+		}
+
+
+		$(document).ready(function() {
+  $('#submit-button').click(function(event) {
+    event.preventDefault();
+    const formValid = new FormValidator($('#news-form'));
+    if (formValid.validateRequiredFields()) {
+      if (formValid.validateEmailField()) {
+    const email = $('#email').val();
+    alert("You have been subscribed to our newsletter!");
+      }
+      else {
+        alert("Incorrect Email Form!");
+      }
+    }
+    else {
+      alert("Please, fill out all the fields!");
+    }
+  });
+});
+		$(document).ready(function() {
+      $('.book').click(function() {
+        window.location.href = 'Appointment.html'; // Replace with the URL of the destination page
+      });
+    });
+	</script>
+</body>
+</html>

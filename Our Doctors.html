@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Doctors</title>
+	<link rel="icon" type="image/x-icon" href="favicon.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="transition.css">
+	<style type="text/css">
+		/* Headings */
+		h1 {
+		  font-family: "Poppins", sans-serif;
+		  font-weight: 700;
+		  font-size: 36px;
+		}
+
+		h2 {
+		  font-family: "Poppins", sans-serif;
+		  font-weight: 600;
+		  font-size: 30px;
+		}
+
+		h3 {
+		  font-family: "Poppins", sans-serif;
+		  font-weight: 600;
+		  font-size: 24px;
+		}
+
+		/* Body Text */
+		p {
+		  font-family: "Poppins", sans-serif;
+		  font-weight: 400;
+		  font-size: 16px;
+		  line-height: 1.5;
+		}
+
+		/* Navigation Menu */
+		.nav-menu {
+		  font-family: Raleway, sans-serif;
+		  font-weight: 500;
+		  font-size: 18px;
+		}
+
+		/* Quotes */
+		.quote {
+		  font-family: Lato, sans-serif;
+		  font-weight: 400;
+		  font-size: 20px;
+		  font-style: italic;
+		}
+
+		/* Call-to-Action */
+		.cta-button {
+		  font-family: Lato, sans-serif;
+		  font-weight: 700;
+		  font-size: 18px;
+		}
+
+		#header-image {
+			background-image: url("mainpage-header.jpeg");
+  			background-size: cover;
+			width: 100%;
+			height: 500px;
+			text-align: center;
+			color: white;
+			border-radius: 30px;
+			border: 0px solid black;
+		}
+
+		#logo {
+			width: 170px;
+		}
+
+		#header-heading {
+			margin-top: 420px;
+			font-size: 50px;
+			-webkit-text-stroke: 1px rgba(0, 0, 0, 0.8);
+
+		}
+
+		.container-fluid {
+		}
+
+		.row {
+			border: 0px solid black;
+		}
+
+		.col-3 {
+			border: 0px solid black;
+			
+		}
+
+		.card-img-top {
+			width: 60%;
+			margin: 7%;
+		}
+
+		.card {
+			border: 0px;
+			background-color: #61876E;
+			color: white;
+			border-radius: 30px;
+		}
+
+		.navbar {
+			border: 0px solid black;
+			margin-top: 2.5%;
+		}
+
+		.card-button {
+			background-color: #006039; 
+			width: 80%; 
+			margin-left: 10%; 
+			margin-right: 10%;
+			color: white;
+			border-radius: 30px;
+		}
+
+		#news {
+			height: 350px;
+			color: white;
+			background-color: #61876E;
+			border-radius: 30px;
+		}
+
+		#news-header {
+			margin: 5%;
+			text-align: center;
+		}
+
+		#news-input {
+			background-color: white;
+			height: 70px;
+			width: 60%;
+			margin: 0 20% 0 20%;
+			border-radius: 40px;
+		}
+
+		input:focus {
+			outline: none;
+		}
+
+		#footer {
+			height: 450px;
+			color: white;
+			background-color: #61876E;
+		}
+
+		.doctor-row {
+			border: 0px solid black;
+			width: 90%;
+			margin: 2% 5% 2% 5%;
+			padding: 0;
+		}
+
+		.doctor-col {
+			background-color: #61876E;
+			border: 20px solid white;
+			border-radius: 40px;
+
+		}
+
+		.doctor-photo {
+			width: 100%;
+			border-radius: 15px;
+			
+		}
+
+		.doctor-h {
+			color: #000000;
+		}
+
+		.doctor-p {
+			color: #FFFFFF;
+		}
+
+		.doctor-paragraph {
+			border: 0px solid black;
+			padding: 4% 5% 5% 4%;
+		}
+
+				@media only screen and (max-width: 992px) {
+		          #footer p {
+		          	font-size: 13px;
+		          }
+
+		          .navbar a {
+					font-size: 14px;
+					font-weight: bold;
+				}
+		   		}
+
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row" style="width: 90%; margin-left: 5%; margin-right: 5%; margin-top: 2%;">
+			<div class="col-6">
+				<img src="logo2.png" id="logo">
+			</div>
+			<div class="col-6" style="border: 0px solid black;">
+				<nav class="navbar navbar-expand-sm navbar-light" style="float: right;">
+ 					<div class="collapse navbar-collapse">
+    					<ul class="navbar-nav">
+      						<li class="nav-item active">
+        						<a class="nav-link" href="Main Page.html">Home</a>
+      						</li>
+      						<li class="nav-item active">
+        						<a class="nav-link" href="About Us.html">About Us</a>
+      						</li>
+      						<li class="nav-item active">
+        						<a class="nav-link" href="Our Doctors.html" style="color: #A37E2C; text-decoration: underline;">Our Doctors</a>
+      						</li>
+      						<li class="nav-item active">
+       							<a class="nav-link" href="Appointment.html">Make an appointment</a>
+      						</li>
+    					</ul>
+  					</div>
+				</nav>
+			</div>
+		</div>
+<!-- HEADER END -->
+<!-- Heading-->
+	<div class="row">
+		<div class="col-12">
+			<h1 style="color: #A37E2C; margin-left: 7%; margin-top: 3%;">Doctors of MediPrime Medical Centre</h1>
+		</div>
+	</div>
+<!-- DOCTORS-->
+<!-- ROW 1-->
+	<div class="row doctor-row">
+		<div class="col-12 col-lg-6 doctor-col">
+			<div class="row">
+				<div class="col-4 doctor-paragraph"><img src="doctor-photo1.png" class="doctor-photo"></div>
+				<div class="col-8 doctor-paragraph">
+					<h5 class="doctor-h">Rachel V Aaron, Ph.D., M.A.</h5>
+					<br>
+					<p class="doctor-p">Rachel Aaron, Ph.D., is a clinical psychologist who specializes in chronic pain within a rehabilitation psychology</p>
+				</div>
+			</div>
+		
+		</div>
+		<div class="col-12 col-lg-6 doctor-col">
+			<div class="row">
+				<div class="col-4 doctor-paragraph"><img src="doctor-photo2.png" class="doctor-photo"></div>
+				<div class="col-8 doctor-paragraph">
+					<h5 class="doctor-h">Peter Magdy Abadir, M.D.</h5>
+					<br>
+					<p class="doctor-p">Dr. Peter Abadir is an assistant professor of medicine at the Johns Hopkins University School of Medicine</p>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+
+<!-- ROW 2-->
+	<div class="row doctor-row">
+		<div class="col-12 col-lg-6 doctor-col">
+			<div class="row">
+				<div class="col-4 doctor-paragraph"><img src="doctor-photo3.png" class="doctor-photo"></div>
+				<div class="col-8 doctor-paragraph">
+					<h5 class="doctor-h">Malik Muhammad Adil, M.B.B.S.</h5>
+					<br>
+					<p class="doctor-p">Dr. Malik Adil is a vascular neurologist in Bethesda, caring for patients who have had strokes.</p>
+				</div>
+			</div>
+		
+		</div>
+		<div class="col-12 col-lg-6 doctor-col">
+			<div class="row">
+				<div class="col-4 doctor-paragraph"><img src="doctor-photo4.png" class="doctor-photo"></div>
+				<div class="col-8 doctor-paragraph">
+					<h5 class="doctor-h">Amiethab A Aiyer, M.D.</h5>
+					<br>
+					<p class="doctor-p">Amiethab Aiyer, M.D., is an orthopaedic surgeon specializing in treating patients with foot and ankle conditions</p>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+
+<!-- ROW 3-->
+	<div class="row doctor-row">
+		<div class="col-12 col-lg-6 doctor-col">
+			<div class="row">
+				<div class="col-4 doctor-paragraph"><img src="doctor-photo5.png" class="doctor-photo"></div>
+				<div class="col-8 doctor-paragraph">
+					<h5 class="doctor-h">Wasel Sayed Akbary, D.O.</h5>
+					<br>
+					<p class="doctor-p">Wasel Akbary, M.D., is an internal medicine provider with Johns Hopkins Community Physicians.</p>
+				</div>
+			</div>
+		
+		</div>
+		<div class="col-12 col-lg-6 doctor-col">
+			<div class="row">
+				<div class="col-4 doctor-paragraph"><img src="doctor-photo6.png" class="doctor-photo"></div>
+				<div class="col-8 doctor-paragraph">
+					<h5 class="doctor-h">Ozan Akca, M.D.</h5>
+					<br>
+					<p class="doctor-p">Ozan Akça, M.D., F.C.C.M., is a professor of anesthesiology in the Department of Anesthesiology</p>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+
+<!-- ROW 4-->
+	<div class="row doctor-row">
+		<div class="col-12 col-lg-6 doctor-col">
+			<div class="row">
+				<div class="col-4 doctor-paragraph"><img src="doctor-photo7.png" class="doctor-photo"></div>
+				<div class="col-8 doctor-paragraph">
+					<h5 class="doctor-h">Santiago Alvarez Arango</h5>
+					<br>
+					<p class="doctor-p">Santiago Alvarez-Arango, M.D., is a Clinical Pharmacology and Allergy and Clinical Immunology Specialist</p>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+
+
+
+
+<!-- FOOTER -->
+	<div class="row" id="footer" style="padding: 7% 8% 7% 8%; margin-top: 5%;">
+		<div class="col-5">
+			<h4>MediPrime</h4>
+			<p>At MediPrime Astana, we specialize in different areas of medicine, including the diagnosis, treatment and prevention of various diseases. Here you will find everything you need for comprehensive care of your health: family medicine, pediatrics, cardiology, gastroenterology, neurology, gynecology and other areas. We also offer physical therapy, rehabilitation and wellness services.</p>
+		</div>
+		<div class="col-1"></div>
+		<div class="col-3">
+			<h4>Adress</h4>
+			<p>Astana, Mangilik El</p>
+			<h4>Telephone</h4>
+			<p>+77077777878</p>
+			<h4>Email</h4>
+			<p>mediprime@gmail.com</p>
+		</div>
+		<div class="col-3">
+			<h4>Opening Hour</h4>
+			<p>Monday: 8am - 6pm</p>
+			<p>Tuesday: 8am - 6pm</p>
+			<p>Wednesday: 8am - 6pm</p>
+			<p>Thursday: 8am - 6pm</p>
+			<p>Friday: 8am - 6pm</p>
+			<p>Saturday: 10am - 5pm</p>
+			<p>Sunday: 10am - 5pm</p>
+		</div>
+
+
+
+
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <title>Appointment</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .container {
+      width: 40%;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin: 2% auto 0 auto;
+      padding: 0;
+      background-color: #ebeada;
+      border: 1px solid #212A3E;
+    }
+    
+    .form-field {
+      height: 70px;
+      color: #006039;
+    }
+
+    .form-top {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .form-inner {
+      margin-left: 10px;
+      margin-right: 10px;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+    
+    .form-field label {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    
+    .form-field input, select {
+      float: right;
+      margin-right: 0;
+      padding: 5px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      width: 100%;
+      color: #212A3E;
+    }
+    
+    .form-actions {
+      height: 70px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 10px;
+    }
+    
+    .form-actions button {
+      margin-left: 10px;
+      font-size: 14px;
+      padding: 5px 10px;
+      color: #006039;
+      background-color: white;
+      width: 100px;
+      height: 50%;
+    }
+
+    div {
+      border: 0px solid black;
+    }
+
+    h6, h5 {
+      margin-left: 10px;
+      margin-top: 7px;
+    }
+
+    @media only screen and (max-width: 768px) {
+          .container {
+            width: 90%;
+          }
+    }
+
+    @media only screen and (max-width: 992px) {
+          .container {
+            width: 80%;
+          }
+          .form-inner {
+            grid-template-columns: 1fr;
+            gap: 5px;
+          }
+    }
+
+    @media only screen and (max-width: 1200px) {
+          .container {
+            width: 60%;
+          }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-field form-top" style="background-color: #006039; color: white;"><h5>Sign Up</h5></div>
+    <div class="form-field form-inner">
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" />
+    </div>
+    <div class="form-field form-inner">
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" />
+    </div>
+    <div class="form-field form-inner">
+      <label for="dateOfBirth">Date of Birth</label>
+      <input type="date" id="dateOfBirth" />
+    </div>
+    <div class="form-field form-inner">
+      <label for="gender">Gender</label>
+      <select id="gender">
+      	<option>Choose Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div class="form-field form-inner">
+      <label for="serviceType">Service Type:</label>
+      <select id="serviceType">
+      	<option>Choose Service Type</option>
+        <option>Pediatric Care</option>
+        <option>Otolaryngology Services</option>
+        <option>Gynecological Services</option>
+        <option>Urology Services</option>
+        <option>Proctology Services</option>
+        <option>Cardiology Services</option>
+        <option>Gastroenterology Services</option>
+        <option>Endocrinology Services</option>
+        <option>Physiotherapy Services</option>
+        <option>Balneotherapy Services</option>
+        <option>Medical Diagnostic Services</option>
+        <option>Medical Consultations</option>
+      </select>
+    </div>
+    <div class="form-field form-inner">
+      <label for="doctor">Doctor:</label>
+      <select id="doctor">
+      	<option>Choose Doctor</option>
+        <option value="1">Dr. 1</option>
+        <option value="2">Dr. 2</option>
+        <option value="2">Dr. 3</option>
+      </select>
+    </div>
+
+
+    <div class="form-field form-inner">
+      <label for="email">Email:</label>
+      <input type="email" id="email" />
+    </div>
+    <div class="form-field form-inner">
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" />
+    </div>
+    <div class="form-actions" style="background-color: #006039; color: white;">
+      <button type="submit" class="btn" onclick="submitForm()"><b>Submit</b></button>
+      <button type="button" class="btn" onclick="cancelForm()"><b>Cancel</b></button>
+    </div>
+  </div>
+  
+  <script>
+    function submitForm() {
+      // psubmission button alert
+      alert("Form submitted successfully!");
+    }
+    
+    function cancelForm() {
+      // pcancel button alert
+      alert("Form canceled!");
+    }
+  </script>
+</body>
+</html>
